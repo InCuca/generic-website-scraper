@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_generators",
+  "info": {
+    "name": "site generator",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "scraper": {
+      "model": "scraper",
+      "via": "site_generators"
+    },
+    "content": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "scraper",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A simple website scraper",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "lint": "./node_modules/.bin/eslint . --fix"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "cron-parser": "^3.1.0",
+    "knex": "<0.20.0",
+    "puppeteer": "^5.5.0",
+    "sqlite3": "5.0.0",
+    "strapi": "3.4.5",
+    "strapi-admin": "3.4.5",
+    "strapi-connector-bookshelf": "3.4.5",
+    "strapi-plugin-content-manager": "3.4.5",
+    "strapi-plugin-content-type-builder": "3.4.5",
+    "strapi-plugin-email": "3.4.5",
+    "strapi-plugin-upload": "3.4.5",
+    "strapi-plugin-users-permissions": "3.4.5",
+    "strapi-utils": "3.4.5"
+  },
+  "author": {
+    "name": "Samuel <samuel@incuca.com.br>"
+  },
+  "strapi": {
+    "uuid": "5e6602e9-0254-4758-9ff8-2f5fc7c4a61c"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
